@@ -12,6 +12,9 @@ def mult_func(n1, n2) :
 def div_func(n1, n2) :
     return n1 / n2
 
+def sqr_func(n1) :
+    return n1 * n1
+
 ## 전역 변수부
 num1, num2, result = 100, 200, 0
 
@@ -29,3 +32,6 @@ print(num1, '*', num2, '=', result2)
 
 result3 = div_func(num1, num2)
 print(num1, '/', num2, '=', result3)
+
+result4 = sqr_func(num1)
+print(num1, '**', num1, '=', result4)
